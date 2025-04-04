@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react"
 import { Lightbulb, Info, Users, Clock } from "lucide-react"
+import Image from "next/image"
 
 export default function DashboardPage() {
   const [currentTime, setCurrentTime] = useState(new Date())
@@ -20,9 +21,15 @@ export default function DashboardPage() {
         {/* Logo + Header */}
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center gap-4">
-            <div className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center text-gray-500 text-sm">
-              Logo
-            </div>
+
+
+            <Image
+              src="/srmlogo.png"
+              alt="SRM Logo"
+              width={120}
+              height={120}
+              className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center text-gray-500 text-sm"
+            />
             <div>
               <h1 className="text-3xl font-bold text-primary">DNA Sequence Classification Dashboard</h1>
               <p className="text-muted-foreground">Major Project | SRMIST, Chennai</p>

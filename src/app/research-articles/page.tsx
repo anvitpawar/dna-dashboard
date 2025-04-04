@@ -8,7 +8,7 @@ import Modal from "../../components/ui/modal"
 const articles = [
   { id: 1, name: "Publication 1", file: "/public/paper1.pdf", type: "pdf" },
   { id: 2, name: "Paper 2", file: "/public/paper2.pdf", type: "pdf" },
-  { id: 3, name: "PPT 3rd Review", file: "/public/ppt3.pptx", type: "pptx" },
+  { id: 3, name: "PPT 3rd ", file: "/public/ppt3.pptx", type: "pptx" },
 ]
 
 export default function ResearchArticlesPage() {
