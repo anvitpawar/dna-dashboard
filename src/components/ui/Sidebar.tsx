@@ -6,10 +6,11 @@ import { BarChart3, UploadCloud, Home, FileBarChart2 } from "lucide-react"
 import clsx from "classnames"
 
 const menuItems = [
+  { name: "Dashboard", href: "/dashboard", icon: <Home className="h-5 w-5" /> },
   { name: "Model Selector", href: "/model-selector",label: "Model Selector", icon: <Home className="h-5 w-5" /> },
-  { name: "Research Articles", href: "/research-articles", icon: <FileBarChart2 className="h-5 w-5" /> },
   { name: "Visualization", href: "/visualization", icon: <BarChart3 className="h-5 w-5" /> },
-  { name: "Report", href: "/reports", icon: <FileBarChart2 className="h-5 w-5" /> },
+  { name: "Report Analysis", href: "/reports", icon: <FileBarChart2 className="h-5 w-5" /> },
+  { name: "Research Articles", href: "/research-articles", icon: <FileBarChart2 className="h-5 w-5" /> }
 ]
 
 export default function Sidebar() {
