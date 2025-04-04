@@ -1,123 +1,139 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Card, CardContent } from "@/components/ui/card"
-import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip } from "recharts"
-import { Button } from "@/components/ui/button"
-import { Download, ChevronDown, ChevronUp } from "lucide-react"
-import { saveAs } from "file-saver"
+import React from "react";
+import dynamic from "next/dynamic";
+import { BarChart, Bar, XAxis, YAxis, Tooltip as RechartTooltip, ResponsiveContainer } from "recharts";
+import { Save } from "lucide-react";
+import { saveAs } from "file-saver";
 
-const diseaseReports = [
+// Lazy load the map component
+const RiskMap = dynamic(() => import("@/components/RiskMap"), {
+  ssr: false,
+});
+
+const dummyForecastData = [
+  { year: 2025, diseases: 4 },
+  { year: 2026, diseases: 6 },
+  { year: 2027, diseases: 8 },
+  { year: 2028, diseases: 10 },
+];
+
+const diseaseTableData = [
   {
-    name: "GeneFlare-1",
-    dnaSequence: "ATGCTAGCTAGCTAGCTA",
-    probability: 78,
-    timeUntilIncrease: "6 months",
+    name: "GeneMal-X",
+    sequence: "AGCTGACGTAGCTAGCTAGCA...",
+    probability: 87,
+    timeUntilSpike: "12 months",
+    city: "Mumbai",
   },
   {
-    name: "NeuroMut-5",
-    dnaSequence: "CGTAGCTAGGTCGATGCA",
-    probability: 62,
-    timeUntilIncrease: "1 year",
+    name: "Neuropath-Y",
+    sequence: "TGCATGCACTGACTAGCTAGT...",
+    probability: 74,
+    timeUntilSpike: "18 months",
+    city: "Bangalore",
   },
   {
-    name: "CellMorph-X",
-    dnaSequence: "GATCGATGCTAGCTAGCA",
-    probability: 88,
-    timeUntilIncrease: "3 months",
+    name: "Respirona-Z",
+    sequence: "CGATCGATGACGATCGATCGT...",
+    probability: 91,
+    timeUntilSpike: "6 months",
+    city: "Delhi",
   },
-]
+];
 
-const topRegions = [
-  { region: "Hyderabad", disease: "CellMorph-X", cases: 920 },
-  { region: "Delhi", disease: "GeneFlare-1", cases: 850 },
-  { region: "Bangalore", disease: "NeuroMut-5", cases: 800 },
-]
+const topRiskCities = [
+  { city: "Delhi", probability: 91 },
+  { city: "Mumbai", probability: 87 },
+  { city: "Bangalore", probability: 74 },
+];
 
 export default function ReportsPage() {
-  const [expanded, setExpanded] = useState<number | null>(null)
-  const [filter, setFilter] = useState<string>("All")
+  const downloadCSV = () => {
+    const csv = [
+      ["Disease", "Sequence", "Probability", "Time Until Spike", "City"],
+      ...diseaseTableData.map((d) => [
+        d.name,
+        d.sequence,
+        `${d.probability}%`,
+        d.timeUntilSpike,
+        d.city,
+      ]),
+    ]
+      .map((row) => row.join(","))
+      .join("\n");
 
-  const downloadReport = () => {
-    const content = JSON.stringify({ diseaseReports, topRegions }, null, 2)
-    const blob = new Blob([content], { type: "application/json" })
-    saveAs(blob, "disease-report.json")
-  }
-
-  const filteredReports =
-    filter === "All" ? diseaseReports : diseaseReports.filter((d) => d.name === filter)
+    const blob = new Blob([csv], { type: "text/csv;charset=utf-8" });
+    saveAs(blob, "disease_report.csv");
+  };
 
   return (
-    <div className="p-6 space-y-6">
-      <div className="flex justify-between items-center">
-        <h1 className="text-3xl font-bold">Predicted Disease Reports</h1>
-        <Button variant="outline" onClick={downloadReport} className="flex items-center gap-2">
-          <Download className="w-4 h-4" /> Download Report
-        </Button>
-      </div>
+    <div className="p-6 space-y-8">
+      <h1 className="text-3xl font-bold mb-4">Disease Forecast Report</h1>
 
-      <div className="flex gap-4 items-center">
-        <label className="font-medium">Filter by Disease:</label>
-        <select
-          value={filter}
-          onChange={(e) => setFilter(e.target.value)}
-          className="border px-3 py-1 rounded-md"
-        >
-          <option value="All">All</option>
-          {diseaseReports.map((d) => (
-            <option key={d.name} value={d.name}>
-              {d.name}
-            </option>
-          ))}
-        </select>
-      </div>
-
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-        {filteredReports.map((disease, i) => (
-          <Card key={i} className="p-4 bg-white shadow-md border">
-            <CardContent>
-              <h2 className="text-xl font-semibold mb-2">{disease.name}</h2>
-              <p>
-                <strong>Probability:</strong> {disease.probability}%
-              </p>
-              <p>
-                <strong>Time Until Rise:</strong> {disease.timeUntilIncrease}
-              </p>
-              <button
-                onClick={() => setExpanded(expanded === i ? null : i)}
-                className="mt-2 text-blue-500 flex items-center gap-1 hover:underline"
-              >
-                {expanded === i ? (
-                  <>
-                    Hide DNA <ChevronUp className="w-4 h-4" />
-                  </>
-                ) : (
-                  <>
-                    Show DNA <ChevronDown className="w-4 h-4" />
-                  </>
-                )}
-              </button>
-              {expanded === i && (
-                <div className="bg-gray-100 p-2 rounded mt-2 text-sm font-mono overflow-x-auto">
-                  {disease.dnaSequence}
-                </div>
-              )}
-            </CardContent>
-          </Card>
-        ))}
-      </div>
-
-      <div className="bg-white p-6 rounded-xl shadow-md border">
-        <h2 className="text-2xl font-semibold mb-4">Top 3 Affected Regions</h2>
+      {/* Bar Chart */}
+      <div className="bg-white p-4 rounded-xl shadow-md">
+        <h2 className="text-xl font-semibold mb-2">Predicted Disease Count Over Years</h2>
         <ResponsiveContainer width="100%" height={300}>
-          <BarChart data={topRegions}>
-            <XAxis dataKey="region" />
+          <BarChart data={dummyForecastData}>
+            <XAxis dataKey="year" />
             <YAxis />
-            <Tooltip />
-            <Bar dataKey="cases" fill="#8884d8" />
+            <RechartTooltip />
+            <Bar dataKey="diseases" fill="#8884d8" />
           </BarChart>
         </ResponsiveContainer>
       </div>
+
+      {/* Disease Table */}
+      <div className="bg-white p-4 rounded-xl shadow-md overflow-x-auto">
+        <h2 className="text-xl font-semibold mb-2">DNA Disease Prediction Table</h2>
+        <table className="w-full table-auto">
+          <thead>
+            <tr className="bg-gray-100 text-left">
+              <th className="p-2">Disease</th>
+              <th className="p-2">DNA Sequence</th>
+              <th className="p-2">Probability</th>
+              <th className="p-2">Time Until Spike</th>
+              <th className="p-2">City</th>
+            </tr>
+          </thead>
+          <tbody>
+            {diseaseTableData.map((disease, idx) => (
+              <tr key={idx} className="border-b hover:bg-gray-50">
+                <td className="p-2 font-medium">{disease.name}</td>
+                <td className="p-2 text-xs truncate max-w-[250px]">{disease.sequence}</td>
+                <td className="p-2">{disease.probability}%</td>
+                <td className="p-2">{disease.timeUntilSpike}</td>
+                <td className="p-2">{disease.city}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <button
+          onClick={downloadCSV}
+          className="mt-4 bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded flex items-center gap-2"
+        >
+          <Save size={16} /> Export CSV
+        </button>
+      </div>
+
+      {/* Risk Cities List */}
+      <div className="bg-white p-4 rounded-xl shadow-md">
+        <h2 className="text-xl font-semibold mb-2">Top 3 High-Risk Cities</h2>
+        <ul className="list-disc pl-6">
+          {topRiskCities.map((city, idx) => (
+            <li key={idx}>
+              <span className="font-medium">{city.city}</span> — {city.probability}% probability
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      {/* Map Component */}
+      <div className="bg-white p-4 rounded-xl shadow-md">
+        <h2 className="text-xl font-semibold mb-2">Interactive Risk Map</h2>
+        <RiskMap riskCities={topRiskCities} />
+      </div>
     </div>
-  )
+  );
 }

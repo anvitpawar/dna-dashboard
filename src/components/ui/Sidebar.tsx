@@ -7,7 +7,7 @@ import clsx from "classnames"
 
 const menuItems = [
   { name: "Model Selector", href: "/model-selector",label: "Model Selector", icon: <Home className="h-5 w-5" /> },
-  { name: "Upload Dataset", href: "/upload", icon: <UploadCloud className="h-5 w-5" /> },
+  { name: "Research Articles", href: "/research-articles", icon: <FileBarChart2 className="h-5 w-5" /> },
   { name: "Visualization", href: "/visualization", icon: <BarChart3 className="h-5 w-5" /> },
   { name: "Report", href: "/reports", icon: <FileBarChart2 className="h-5 w-5" /> },
 ]
