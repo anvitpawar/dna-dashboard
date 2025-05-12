@@ -12,6 +12,7 @@ const articles = [
   { id: 5, name: "Publication 1", file: "/paper1.pdf", type: "pdf", description: "Research findings on DNA sequence analysis" },
   { id: 6, name: "Paper 2", file: "/paper2.pdf", type: "pdf", description: "Model performance analysis" },
   { id: 7, name: "Research Presentation", file: "/ppt3.pptx", type: "pptx", description: "Overview of the DNA analysis dashboard" },
+  { id: 8, name: "DNA Dataset Sources", file: "/docs/dna-dataset-sources.md", type: "md", description: "Detailed documentation of data sources used to create the DNA dataset." },
 ]
 
 export default function ResearchArticlesPage() {
