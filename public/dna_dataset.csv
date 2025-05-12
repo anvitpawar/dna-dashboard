@@ -1,0 +1,1088 @@
+DNA_Sequence,Disease,Parameter1,Parameter2,Parameter3,Location
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune
+CGTACGTACGTA,Sickle Cell Anemia,0.92,0.94,0.93,Ahmedabad
+ATCGTACGATCG,Cancer,0.89,0.9,0.88,Surat
+GCTAGCTAGCTA,Alzheimer's Disease,0.91,0.92,0.9,Jaipur
+TACGTACGTACG,Cystic Fibrosis,0.87,0.89,0.91,Lucknow
+CGTACGTACGTA,Sickle Cell Anemia,0.93,0.95,0.94,Kanpur
+ATCGTACGATCG,Cancer,0.9,0.91,0.89,Nagpur
+GCTAGCTAGCTA,Alzheimer's Disease,0.92,0.93,0.91,Indore
+TACGTACGTACG,Cystic Fibrosis,0.88,0.9,0.92,Thane
+CGTACGTACGTA,Sickle Cell Anemia,0.94,0.96,0.95,Bhopal
+ATCGTACGATCG,Cancer,0.91,0.92,0.9,Visakhapatnam
+GCTAGCTAGCTA,Alzheimer's Disease,0.93,0.94,0.92,Patna
+TACGTACGTACG,Cystic Fibrosis,0.89,0.91,0.93,Vadodara
+CGTACGTACGTA,Sickle Cell Anemia,0.95,0.97,0.96,Ghaziabad
+ATCGATCGATCG,Cancer,0.85,0.9,0.88,Delhi
+GCTAGCTAGCTA,Alzheimer's Disease,0.87,0.88,0.9,Mumbai
+TACGTACGTACG,Cystic Fibrosis,0.9,0.92,0.91,Bangalore
+CGTACGTACGTA,Sickle Cell Anemia,0.91,0.93,0.92,Kolkata
+ATCGTACGATCG,Cancer,0.88,0.89,0.87,Chennai
+GCTAGCTAGCTA,Alzheimer's Disease,0.9,0.91,0.89,Hyderabad
+TACGTACGTACG,Cystic Fibrosis,0.86,0.88,0.9,Pune

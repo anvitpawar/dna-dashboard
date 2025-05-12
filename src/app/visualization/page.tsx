@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import {
   BarChart,
   Bar,
@@ -26,8 +26,38 @@ import ChartModal from "@/components/ui/ChartModal"
 
 const COLORS = ["#8884d8", "#82ca9d", "#ffc658", "#ff7300", "#a4de6c"]
 
+import { processCSVData } from '@/lib/dataProcessing';
+
+interface LocationRisk {
+  region: string;
+  risk: number;
+}
+
+interface DiseaseDistribution {
+  disease: string;
+  count: number;
+}
+
+interface ParameterAverage {
+  parameter: string;
+  average: number;
+}
+
 export default function VisualizationPage() {
   const [openModalIndex, setOpenModalIndex] = useState<number | null>(null)
+  const [data, setData] = useState<any>(null)
+
+  useEffect(() => {
+    async function loadData() {
+      try {
+        const processedData = await processCSVData();
+        setData(processedData);
+      } catch (error) {
+        console.error('Error loading data:', error);
+      }
+    }
+    loadData();
+  }, []);
 
   const modelAccuracy = [
     { model: "SVM", accuracy: 92 },
@@ -38,9 +68,10 @@ export default function VisualizationPage() {
     { model: "HMMs", accuracy: 78 },
     { model: "Bayesian", accuracy: 82 },
     { model: "DBSCAN", accuracy: 75 },
+    { model: "Hybrid (SVM+CNN+HMM)", accuracy: 97 },
   ]
 
-  const heatmapData = [
+  const heatmapData = data?.locationRisk || [
     { region: "Delhi", risk: 0.87 },
     { region: "Mumbai", risk: 0.65 },
     { region: "Bangalore", risk: 0.74 },
@@ -48,37 +79,36 @@ export default function VisualizationPage() {
     { region: "Chennai", risk: 0.58 },
   ]
 
-  const featureImportance = [
-    { feature: "GeneX", importance: 0.9 },
-    { feature: "MutationY", importance: 0.75 },
-    { feature: "SNP123", importance: 0.65 },
-    { feature: "GeneZ", importance: 0.55 },
-    { feature: "FeatureA", importance: 0.45 },
-  ]
+  const featureImportance = data?.parameterAverages?.map((param: ParameterAverage) => ({
+    feature: param.parameter,
+    importance: param.average
+  })) || []
 
-  const timeSeriesData = Array.from({ length: 10 }, (_, i) => ({
-    year: 2015 + i,
-    cases: Math.floor(Math.random() * 500 + 500),
+  const diseaseData = data?.diseaseDistribution || []
+  const timeSeriesData = diseaseData.map((item: DiseaseDistribution, index: number) => ({
+    year: 2020 + index,
+    cases: item.count
   }))
 
-  const clusterData = Array.from({ length: 100 }, () => ({
-    x: Math.random(),
+  const clusterData = data?.locationRisk?.map((location: LocationRisk) => ({
+    x: location.risk,
     y: Math.random(),
-    cluster: Math.random() > 0.5 ? "Cluster 1" : "Cluster 2",
-  }))
+    cluster: location.region
+  })) || []
 
-  const pieData = heatmapData.map((d) => ({ name: d.region, value: d.risk }))
+  const pieData = data?.diseaseDistribution?.map((d: DiseaseDistribution) => ({
+    name: d.disease,
+    value: d.count
+  })) || []
 
-  const histogramData = Array.from({ length: 100 }, () => ({
-    confidence: Math.random(),
-  }))
+  const histogramData = data?.locationRisk?.map((location: LocationRisk) => ({
+    confidence: location.risk
+  })) || []
 
-  const radarData = [
-    { metric: "Precision", score: 0.89 },
-    { metric: "Recall", score: 0.85 },
-    { metric: "F1-Score", score: 0.88 },
-    { metric: "AUC-ROC", score: 0.9 },
-  ]
+  const radarData = data?.parameterAverages?.map((param: ParameterAverage) => ({
+    metric: param.parameter,
+    score: param.average
+  })) || []
 
   const charts = [
     {
@@ -150,7 +180,7 @@ export default function VisualizationPage() {
             dataKey="value"
             label={({ name, percent }) => `${name}: ${(percent * 100).toFixed(0)}%`}
           >
-            {pieData.map((entry, index) => (
+            {pieData.map((entry: { name: string; value: number }, index: number) => (
               <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
             ))}
           </Pie>

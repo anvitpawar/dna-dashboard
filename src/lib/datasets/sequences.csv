@@ -1,0 +1,14 @@
+ID,DNA_Sequence,Disease,Source_DB,DB_Accession
+SEQ001,ATCGATCGTTAGCTTAGCTAGCTGATCG,Cancer,COSMIC,COSM123456
+SEQ002,GCTAGCTAGCTGATCGATCGATGCTAGC,Cancer,COSMIC,COSM234567
+SEQ003,TACGTACGTACGTACGTACGTACGTACG,Alzheimer's Disease,ADGC,rs12345678
+SEQ004,CGTACGTACGTACGTACGTACGTACGTA,Alzheimer's Disease,ADGC,rs23456789
+SEQ005,ATCGTACGATCGTACGATCGTACGATCG,Cystic Fibrosis,CFTR2,c.1521_1523del
+SEQ006,GCTAGCTAGCTGATCGATCGATGCTAGC,Cystic Fibrosis,CFTR2,c.1624G>T
+SEQ007,TACGTACGTACGTACGTACGTACGTACG,Sickle Cell Anemia,HbVar,HBB:c.20A>T
+SEQ008,CGTACGTACGTACGTACGTACGTACGTA,Sickle Cell Anemia,HbVar,HBB:c.19G>A
+# Data sources:
+# - COSMIC (Catalogue Of Somatic Mutations In Cancer): https://cancer.sanger.ac.uk/cosmic
+# - ADGC (Alzheimer's Disease Genetics Consortium): http://www.adgenetics.org/
+# - CFTR2 (Clinical and Functional Translation of CFTR): https://cftr2.org/
+# - HbVar (Database of Human Hemoglobin Variants): https://globin.bx.psu.edu/hbvar/

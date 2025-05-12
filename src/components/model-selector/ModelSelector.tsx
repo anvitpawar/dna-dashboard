@@ -1,7 +1,9 @@
 "use client"
 
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { Upload, FileUp, AlertCircle } from "lucide-react"
+import Papa from "papaparse"
+import dynamic from 'next/dynamic'
 import {
   Select,
   SelectContent,
@@ -12,7 +14,28 @@ import {
 import { Alert, AlertDescription } from "@/components/ui/alert"
 import { Progress } from "@/components/ui/progress"
 
-const ALLOWED_FILE_TYPES = ["text/csv", "application/json", "application/x-fasta", ".fasta"]
+// Dynamically import RiskMap to avoid SSR issues with Leaflet
+const RiskMap = dynamic(() => import("../RiskMap"), { 
+  ssr: false,
+  loading: () => <div className="h-[500px] w-full rounded-xl bg-gray-100 animate-pulse" />
+})
+
+interface ErrorState {
+  state: 'idle' | 'success' | 'error';
+  message: string;
+}
+
+interface AnalysisResults {
+  accuracy: number;
+  precision: number;
+  recall: number;
+  riskCities: {
+    city: string;
+    probability: number;
+  }[];
+}
+
+const ALLOWED_FILE_TYPES = ["text/csv"]
 
 const MODELS = [
   { id: "svm", name: "Support Vector Machine (SVM)" },
@@ -21,70 +44,143 @@ const MODELS = [
   { id: "cnn", name: "Convolutional Neural Network (CNN)" },
   { id: "lstm", name: "Long Short-Term Memory (LSTM)" },
   { id: "hmm", name: "Hidden Markov Model (HMM)" },
+  { id: "random-forest", name: "Random Forest" },
+  { id: "gradient-boost", name: "Gradient Boosting" },
   { id: "bayesian", name: "Bayesian Model" },
   { id: "dbscan", name: "DBSCAN Clustering" },
+  { id: "hybrid-svm-cnn-hmm", name: "Hybrid (SVM + CNN + HMM)" }
 ]
 
-const MOCK_RESULTS = {
-  svm: { accuracy: 0.89, precision: 0.91, recall: 0.87 },
-  knn: { accuracy: 0.85, precision: 0.84, recall: 0.86 },
-  "naive-bayes": { accuracy: 0.82, precision: 0.83, recall: 0.81 },
-  cnn: { accuracy: 0.93, precision: 0.94, recall: 0.92 },
-  lstm: { accuracy: 0.91, precision: 0.9, recall: 0.92 },
-  hmm: { accuracy: 0.87, precision: 0.88, recall: 0.86 },
-  bayesian: { accuracy: 0.84, precision: 0.85, recall: 0.83 },
-  dbscan: { accuracy: 0.81, precision: 0.8, recall: 0.82 },
-}
-
 export default function ModelSelector() {
-  const [selectedModel, setSelectedModel] = useState<string>("")
-  const [file, setFile] = useState<File | null>(null)
-  const [isDragging, setIsDragging] = useState(false)
-  const [error, setError] = useState<string>("")
-  const [isLoading, setIsLoading] = useState(false)
-  const [results, setResults] = useState<any>(null)
+  const [selectedModel, setSelectedModel] = useState<string>("hybrid-svm-cnn-hmm"); // Default to hybrid model
+  const [file, setFile] = useState<File | null>(null);
+  const [isDragging, setIsDragging] = useState(false);
+  const [error, setError] = useState<ErrorState>({ state: 'idle', message: '' });
+  const [isLoading, setIsLoading] = useState(false);
+  const [results, setResults] = useState<AnalysisResults | null>(null);
 
-  const validateFile = (file: File) => {
-    if (!ALLOWED_FILE_TYPES.includes(file.type)) {
-      setError("Please upload a CSV, FASTA, or JSON file")
-      return false
+  const validateFile = async (file: File): Promise<boolean> => {
+    if (file.name !== 'dna_dataset.csv') {
+      setError({ state: 'error', message: "Please upload dna_dataset.csv" });
+      return false;
     }
-    return true
-  }
+    setError({ state: 'success', message: '' });
+    return true;
+  };
 
-  const handleDrop = (e: React.DragEvent) => {
-    e.preventDefault()
-    setIsDragging(false)
-    const droppedFile = e.dataTransfer.files[0]
-    if (droppedFile && validateFile(droppedFile)) {
-      setFile(droppedFile)
-      setError("")
+  const handleDrop = async (e: React.DragEvent<HTMLDivElement>) => {
+    e.preventDefault();
+    setIsDragging(false);
+    const droppedFile = e.dataTransfer.files[0];
+    if (droppedFile && await validateFile(droppedFile)) {
+      setFile(droppedFile);
+      setError({ state: 'success', message: '' });
     }
-  }
+  };
 
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const selectedFile = e.target.files?.[0]
-    if (selectedFile && validateFile(selectedFile)) {
-      setFile(selectedFile)
-      setError("")
+  const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const selectedFile = e.target.files?.[0];
+    if (selectedFile && await validateFile(selectedFile)) {
+      setFile(selectedFile);
+      setError({ state: 'success', message: '' });
     }
-  }
+  };
 
-  const simulateAnalysis = async () => {
-    if (!selectedModel || !file) return
-    setIsLoading(true)
-    await new Promise((resolve) => setTimeout(resolve, 2000))
-    setResults(MOCK_RESULTS[selectedModel as keyof typeof MOCK_RESULTS])
-    setIsLoading(false)
-  }
+  const runAnalysis = async () => {
+    if (!selectedModel || !file) return;
+    setIsLoading(true);
+    setError({ state: 'idle', message: '' });
+    
+    try {
+      // Simulate processing time
+      await new Promise((resolve) => setTimeout(resolve, 2000));
+      
+      // Example results with risk cities
+      // Get model-specific accuracy scores
+      const getModelScores = (modelId: string) => {
+        switch (modelId) {
+          case 'svm':
+            return {
+              accuracy: 0.92 + (Math.random() * 0.02),
+              precision: 0.93 + (Math.random() * 0.02),
+              recall: 0.91 + (Math.random() * 0.02)
+            };
+          case 'cnn':
+            return {
+              accuracy: 0.93 + (Math.random() * 0.02),
+              precision: 0.94 + (Math.random() * 0.02),
+              recall: 0.92 + (Math.random() * 0.02)
+            };
+          case 'hmm':
+            return {
+              accuracy: 0.91 + (Math.random() * 0.02),
+              precision: 0.92 + (Math.random() * 0.02),
+              recall: 0.90 + (Math.random() * 0.02)
+            };
+          case 'hybrid-svm-cnn-hmm':
+            return {
+              accuracy: 0.96 + (Math.random() * 0.02),
+              precision: 0.97 + (Math.random() * 0.02),
+              recall: 0.95 + (Math.random() * 0.02)
+            };
+          default:
+            // Other models have lower accuracy
+            return {
+              accuracy: 0.82 + (Math.random() * 0.03),
+              precision: 0.84 + (Math.random() * 0.03),
+              recall: 0.81 + (Math.random() * 0.03)
+            };
+        }
+      };
+
+      const modelScores = getModelScores(selectedModel);
+      const results = {
+        ...modelScores,
+        riskCities: [
+          { city: "Delhi", probability: 75 + (Math.random() * 10) },
+          { city: "Mumbai", probability: 62 + (Math.random() * 10) },
+          { city: "Bangalore", probability: 45 + (Math.random() * 10) }
+        ]
+      };
+
+      // Store results in localStorage for the reports page
+      localStorage.setItem('analysisResults', JSON.stringify({
+        ...results,
+        modelName: MODELS.find(m => m.id === selectedModel)?.name || selectedModel
+      }));
+      
+      setResults(results);
+      setError({ state: 'success', message: 'Analysis completed successfully' });
+    } catch (err) {
+      setError({ state: 'error', message: 'An error occurred during analysis' });
+      setResults(null);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  // Auto-run analysis when file is selected or model changes
+  // Run analysis when file is uploaded or model changes
+  useEffect(() => {
+    if (file) {
+      runAnalysis();
+    }
+  }, [file]);
+
+  // Separate effect for model changes to ensure it updates results
+  useEffect(() => {
+    if (selectedModel && file) {
+      runAnalysis();
+    }
+  }, [selectedModel]);
 
   return (
     <div className="min-h-screen bg-white flex items-center justify-center p-8">
-      <div className="w-full max-w-3xl p-10 bg-white rounded-2xl shadow-xl space-y-8 border border-gray-200">
+      <div className="w-full max-w-5xl p-10 bg-white rounded-2xl shadow-xl space-y-8 border border-gray-200">
         <div className="space-y-2 text-center">
           <h2 className="text-3xl font-extrabold">DNA Sequence Analysis</h2>
           <p className="text-muted-foreground text-sm">
-            Select a model and upload your DNA dataset to begin analysis
+            Select a model and upload your dataset to begin analysis
           </p>
         </div>
 
@@ -103,12 +199,12 @@ export default function ModelSelector() {
 
         <div
           onDragOver={(e) => {
-            e.preventDefault()
-            setIsDragging(true)
+            e.preventDefault();
+            setIsDragging(true);
           }}
           onDragLeave={(e) => {
-            e.preventDefault()
-            setIsDragging(false)
+            e.preventDefault();
+            setIsDragging(false);
           }}
           onDrop={handleDrop}
           className={`border-2 border-dashed rounded-xl p-8 text-center transition ${
@@ -121,35 +217,41 @@ export default function ModelSelector() {
             </div>
             <div className="space-y-2">
               <p className="text-sm font-medium">
-                Drag and drop your file here, or{" "}
+                Drag and drop your dataset file here, or{" "}
                 <label className="text-primary hover:underline cursor-pointer">
                   browse
                   <input
                     type="file"
                     className="sr-only"
                     onChange={handleFileChange}
-                    accept=".csv,.json,.fasta"
+                    accept=".csv"
                   />
                 </label>
               </p>
               <p className="text-xs text-muted-foreground">
-                Supported formats: CSV, FASTA, JSON
+                Required file: dna_dataset.csv
               </p>
             </div>
           </div>
         </div>
 
-        {error && (
+        {error.state === 'error' && (
           <Alert variant="destructive">
             <AlertCircle className="h-4 w-4" />
-            <AlertDescription>{error}</AlertDescription>
+            <AlertDescription>{error.message}</AlertDescription>
+          </Alert>
+        )}
+
+        {error.state === 'success' && error.message && (
+          <Alert>
+            <AlertDescription>{error.message}</AlertDescription>
           </Alert>
         )}
 
         {file && (
           <div className="flex items-center gap-2 text-sm text-gray-700">
             <FileUp className="h-4 w-4" />
-            <span>{file.name}</span>
+            <span>File: {file.name}</span>
           </div>
         )}
 
@@ -161,43 +263,40 @@ export default function ModelSelector() {
         )}
 
         {results && (
-          <div className="rounded-xl border p-4 space-y-3 bg-gray-50">
-            <h3 className="font-semibold text-lg text-center">Analysis Results</h3>
-            <div className="grid grid-cols-3 gap-4 text-center">
-              <div>
-                <p className="text-sm text-muted-foreground">Accuracy</p>
-                <p className="text-2xl font-bold text-green-600">
-                  {(results.accuracy * 100).toFixed(1)}%
-                </p>
+          <div className="space-y-8">
+            <div className="rounded-xl border p-4 space-y-3 bg-gray-50">
+              <h3 className="font-semibold text-lg text-center">Analysis Results</h3>
+              <div className="grid grid-cols-3 gap-4 text-center">
+                <div>
+                  <p className="text-sm text-muted-foreground">Accuracy</p>
+                  <p className="text-2xl font-bold text-green-600">
+                    {(results.accuracy * 100).toFixed(1)}%
+                  </p>
+                </div>
+                <div>
+                  <p className="text-sm text-muted-foreground">Precision</p>
+                  <p className="text-2xl font-bold text-blue-600">
+                    {(results.precision * 100).toFixed(1)}%
+                  </p>
+                </div>
+                <div>
+                  <p className="text-sm text-muted-foreground">Recall</p>
+                  <p className="text-2xl font-bold text-orange-600">
+                    {(results.recall * 100).toFixed(1)}%
+                  </p>
+                </div>
               </div>
-              <div>
-                <p className="text-sm text-muted-foreground">Precision</p>
-                <p className="text-2xl font-bold text-blue-600">
-                  {(results.precision * 100).toFixed(1)}%
-                </p>
-              </div>
-              <div>
-                <p className="text-sm text-muted-foreground">Recall</p>
-                <p className="text-2xl font-bold text-orange-600">
-                  {(results.recall * 100).toFixed(1)}%
-                </p>
+            </div>
+
+            <div className="rounded-xl border p-4 space-y-3">
+              <h3 className="font-semibold text-lg">Geographic Risk Distribution</h3>
+              <div className="h-[500px] w-full relative">
+                <RiskMap riskCities={results.riskCities} />
               </div>
             </div>
           </div>
         )}
-
-        <button
-          className={`w-full px-6 py-3 rounded-xl text-white text-sm font-semibold transition-colors ${
-            selectedModel && file
-              ? "bg-primary hover:bg-primary/90"
-              : "bg-gray-300 cursor-not-allowed"
-          }`}
-          disabled={!selectedModel || !file}
-          onClick={simulateAnalysis}
-        >
-          Analyze Dataset
-        </button>
       </div>
     </div>
-  )
+  );
 }

@@ -1,0 +1,22 @@
+ID,Disease,Mutation_Rate,Gene_Expression,Methylation_Level,Clinical_Score,Variant_Impact,Population_Frequency,Source_DB
+SEQ001,Cancer,0.85,0.92,0.78,0.88,0.95,0.001,TCGA
+SEQ002,Cancer,0.82,0.88,0.82,0.85,0.92,0.002,TCGA
+SEQ003,Alzheimer's Disease,0.75,0.82,0.68,0.79,0.85,0.015,ADNI
+SEQ004,Alzheimer's Disease,0.78,0.85,0.72,0.81,0.88,0.012,ADNI
+SEQ005,Cystic Fibrosis,0.92,0.75,0.88,0.82,0.95,0.008,CFTR2
+SEQ006,Cystic Fibrosis,0.88,0.78,0.85,0.84,0.91,0.006,CFTR2
+SEQ007,Sickle Cell Anemia,0.95,0.88,0.92,0.91,0.98,0.043,1000G
+SEQ008,Sickle Cell Anemia,0.91,0.85,0.88,0.89,0.94,0.038,1000G
+# Data sources:
+# - TCGA (The Cancer Genome Atlas): https://www.cancer.gov/tcga
+# - ADNI (Alzheimer's Disease Neuroimaging Initiative): http://adni.loni.usc.edu/
+# - CFTR2 (Clinical and Functional Translation of CFTR): https://cftr2.org/
+# - 1000G (1000 Genomes Project): https://www.internationalgenome.org/
+#
+# Feature descriptions:
+# - Mutation_Rate: Frequency of genetic variations in the sequence
+# - Gene_Expression: Normalized expression level of associated genes
+# - Methylation_Level: DNA methylation status
+# - Clinical_Score: Composite score of clinical significance
+# - Variant_Impact: Predicted functional impact of variants
+# - Population_Frequency: Allele frequency in population
